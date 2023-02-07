@@ -4,9 +4,9 @@ import math
 import nltk
 import streamlit 
 from nltk.tokenize import sent_tokenize, word_tokenize
-from collections import defaultdict
 nltk.download('vader_lexicon')
 nltk.download('punkt')
+
 
 # Fungsi untuk Menghapus Dialog pada Novel yang pada umumnya di
 def diagRemove(file):
