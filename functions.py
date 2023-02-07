@@ -4,6 +4,7 @@ import math
 import nltk
 import streamlit 
 from nltk.tokenize import sent_tokenize, word_tokenize
+from collections import defaultdict
 nltk.download('vader_lexicon')
 nltk.download('punkt')
 
